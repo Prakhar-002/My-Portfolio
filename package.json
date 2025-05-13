@@ -1,5 +1,5 @@
 {
-  "name": "esportfolio",
+  "name": "nextfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,5 +27,7 @@
     "eslint-config-next": "13.4.3",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
-  }
+  },
+  "author": "Prakhar Katiyar",
+  "description": "A sleek, animated developer portfolio built with Next.js, TailwindCSS, and Framer Motion."
 }
