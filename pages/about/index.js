@@ -59,48 +59,48 @@ export const aboutData = [
       {
         title: 'Frontend Development',
         icons: [
-          <FaHtml5 className="text-orange-600" />,
-          <FaCss3 className="text-blue-600" />,
-          <FaJs className="text-yellow-400" />,
-          <SiTypescript className="text-blue-500" />,
-          <FaReact className="text-cyan-400" />,
-          <SiNextdotjs className="text-black dark:text-white" />,
-          <FaBootstrap className="text-purple-600" />,
-          <SiTailwindcss className="text-sky-400" />,
-          <SiFramer className="text-pink-500" />,
-          <FaMarkdown className="text-gray-600" />
+          <FaHtml5 key="Frontend-0" className="text-orange-600" />,
+          <FaCss3 key="Frontend-1" className="text-blue-600" />,
+          <FaJs key="Frontend-2" className="text-yellow-400" />,
+          <SiTypescript key="Frontend-3" className="text-blue-500" />,
+          <FaReact key="Frontend-4" className="text-cyan-400" />,
+          <SiNextdotjs key="Frontend-5" className="text-black dark:text-white" />,
+          <FaBootstrap key="Frontend-6" className="text-purple-600" />,
+          <SiTailwindcss key="Frontend-7" className="text-sky-400" />,
+          <SiFramer key="Frontend-8" className="text-pink-500" />,
+          <FaMarkdown key="Frontend-9" className="text-gray-600" />
         ]
       },
       {
         title: 'Backend & Database',
         icons: [
-          <FaNodeJs className="text-green-600" />,
-          <SiExpress className="text-gray-800 dark:text-white" />,
-          <SiPrisma className="text-indigo-600" />,
-          <SiMongodb className="text-green-700" />,
-          <SiMysql className="text-blue-700" />
+          <FaNodeJs key="Backend-0" className="text-green-600" />,
+          <SiExpress key="Backend-1" className="text-gray-800 dark:text-white" />,
+          <SiPrisma key="Backend-2" className="text-indigo-600" />,
+          <SiMongodb key="Backend-3" className="text-green-700" />,
+          <SiMysql key="Backend-4" className="text-blue-700" />
         ],
       },
       {
         title: 'Deployment & Tools',
         icons: [
-          <FaGithub className="text-gray-800 dark:text-white" />,
-          <SiCloudinary className="text-blue-400" />,
-          <SiAppwrite className="text-pink-600" />,
-          <SiNetlify className="text-cyan-600" />,
-          <SiVercel className="text-black dark:text-white" />,
-          <SiRender className="text-indigo-400" />,
-          <SiHoppscotch className="text-rose-500" />,
-          <SiPostman className="text-orange-500" />
+          <FaGithub key="Tools-0" className="text-gray-800 dark:text-white" />,
+          <SiCloudinary key="Tools-1" className="text-blue-400" />,
+          <SiAppwrite key="Tools-2" className="text-pink-600" />,
+          <SiNetlify key="Tools-3" className="text-cyan-600" />,
+          <SiVercel key="Tools-4" className="text-black dark:text-white" />,
+          <SiRender key="Tools-5" className="text-indigo-400" />,
+          <SiHoppscotch key="Tools-6" className="text-rose-500" />,
+          <SiPostman key="Tools-7" className="text-orange-500" />
         ]
       },
       {
         title: 'Programming & Data',
         icons: [
-          <FaJava className="text-red-600" />,
-          <FaPython className="text-blue-400" />,
-          <SiNumpy className="text-violet-500" />,
-          <SiPandas className="text-blue-800" />
+          <FaJava key="Prog-0" className="text-red-600" />,
+          <FaPython key="Prog-1" className="text-blue-400" />,
+          <SiNumpy key="Prog-2" className="text-violet-500" />,
+          <SiPandas key="Prog-3" className="text-blue-800" />
         ]
       },
     ]
@@ -156,6 +156,7 @@ export const aboutData = [
     ]
   }
 ];
+
 
 // bigScreen data
 export const bigScreenAboutData = [
@@ -165,63 +166,63 @@ export const bigScreenAboutData = [
       {
         title: 'Web Dev',
         icons: [
-          <FaHtml5 className="text-orange-600" />,
-          <FaCss3 className="text-blue-600" />,
-          <FaJs className="text-yellow-400" />,
-          <SiTypescript className="text-blue-500" />,
-          <FaReact className="text-cyan-400" />,
-          <SiNextdotjs className="text-black dark:text-white" />,
-          <FaBootstrap className="text-purple-600" />,
-          <SiTailwindcss className="text-sky-400" />,
-          <SiFramer className="text-pink-500" />,
-          <FaMarkdown className="text-gray-600" />
+          <FaHtml5 key="WebDev-0" className="text-orange-600" />,
+          <FaCss3 key="WebDev-1" className="text-blue-600" />,
+          <FaJs key="WebDev-2" className="text-yellow-400" />,
+          <SiTypescript key="WebDev-3" className="text-blue-500" />,
+          <FaReact key="WebDev-4" className="text-cyan-400" />,
+          <SiNextdotjs key="WebDev-5" className="text-black dark:text-white" />,
+          <FaBootstrap key="WebDev-6" className="text-purple-600" />,
+          <SiTailwindcss key="WebDev-7" className="text-sky-400" />,
+          <SiFramer key="WebDev-8" className="text-pink-500" />,
+          <FaMarkdown key="WebDev-9" className="text-gray-600" />
         ]
       },
       {
         title: 'Backend & API',
         icons: [
-          <FaNodeJs className="text-green-600" />,
-          <SiExpress className="text-gray-800 dark:text-white" />,
-          <SiPrisma className="text-indigo-600" />
+          <FaNodeJs key="BackendAPI-0" className="text-green-600" />,
+          <SiExpress key="BackendAPI-1" className="text-gray-800 dark:text-white" />,
+          <SiPrisma key="BackendAPI-2" className="text-indigo-600" />
         ]
       },
       {
         title: 'Databases',
         icons: [
-          <SiMongodb className="text-green-700" />,
-          <SiMysql className="text-blue-700" />
+          <SiMongodb key="DB-0" className="text-green-700" />,
+          <SiMysql key="DB-1" className="text-blue-700" />
         ]
       },
       {
         title: 'Deployment & Hosting',
         icons: [
-          <FaGithub className="text-gray-800 dark:text-white" />,
-          <SiCloudinary className="text-blue-400" />,
-          <SiAppwrite className="text-pink-600" />,
-          <SiNetlify className="text-cyan-600" />,
-          <SiVercel className="text-black dark:text-white" />,
-          <SiRender className="text-indigo-400" />
+          <FaGithub key="Deploy-0" className="text-gray-800 dark:text-white" />,
+          <SiCloudinary key="Deploy-1" className="text-blue-400" />,
+          <SiAppwrite key="Deploy-2" className="text-pink-600" />,
+          <SiNetlify key="Deploy-3" className="text-cyan-600" />,
+          <SiVercel key="Deploy-4" className="text-black dark:text-white" />,
+          <SiRender key="Deploy-5" className="text-indigo-400" />
         ]
       },
       {
         title: 'API & Testing Tools',
         icons: [
-          <SiHoppscotch className="text-rose-500" />,
-          <SiPostman className="text-orange-500" />
+          <SiHoppscotch key="API-0" className="text-rose-500" />,
+          <SiPostman key="API-1" className="text-orange-500" />
         ]
       },
       {
         title: 'Programming & DSA',
         icons: [
-          <FaJava className="text-red-600" />,
-          <FaPython className="text-blue-400" />
+          <FaJava key="DSA-0" className="text-red-600" />,
+          <FaPython key="DSA-1" className="text-blue-400" />
         ]
       },
       {
         title: 'Data Science Libraries',
         icons: [
-          <SiNumpy className="text-violet-500" />,
-          <SiPandas className="text-blue-800" />
+          <SiNumpy key="DSLib-0" className="text-violet-500" />,
+          <SiPandas key="DSLib-1" className="text-blue-800" />
         ]
       }
     ]
@@ -277,7 +278,6 @@ export const bigScreenAboutData = [
     ]
   }
 ];
-
 
 
 const About = () => {
@@ -376,7 +376,7 @@ const About = () => {
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 ">
             {aboutData.map((item, itemIndex) => {
               return (
-                <div key={itemIndex}
+                <div key={`about-item-${itemIndex}`}
                   className={`${index === itemIndex && 'text-accent after:w-[100%]'} ${index === itemIndex ? 'after:bg-accent' : "after:bg-white"} cursor-pointer capitalize xl:text-lg relative transition-all after:w-8 after:h-[2px] after:absolute after:-bottom-1 after:left-0 after:transition-all after:duration-300 hover:after:w-[100%]  hover:after:bg-accent hover:text-accent`}
                   onClick={() => setIndex(itemIndex)}
                 >
@@ -389,7 +389,7 @@ const About = () => {
           {/* small screen about */}
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start xl:hidden">
             {aboutData[index].info.map((item, itemIndex) => (
-              <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+              <div key={`item-${itemIndex}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
                 {/* title */}
                 <div className="font-light mb-2 md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
@@ -397,7 +397,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-4">
                   {/* itemIcons */}
                   {item.icons?.map((icon, iconIndex) => (
-                    <div key={iconIndex} className="text-2xl text-white">{icon}</div>
+                    <div key={`item-icon-${iconIndex}`} className="text-2xl text-white">{icon}</div>
                   ))}
                 </div>
               </div>
@@ -408,7 +408,7 @@ const About = () => {
           <div className="py-2 xl:py-6 hidden xl:flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {bigScreenAboutData[index].info.map((item, itemIndex) => (
               <div
-                key={itemIndex}
+                key={`big-src-item-${itemIndex}`}
                 className="flex-1 flex flex-col md:flex-row items-center justify-between gap-2 text-white/80 px-4 py-2 border-b border-white/10"
               >
                 {/* Title & Stage */}
@@ -422,7 +422,7 @@ const About = () => {
                 {item.icons?.length > 0 && (
                   <div className="flex flex-wrap gap-3 mt-2 md:mt-0">
                     {item.icons.map((icon, iconIndex) => (
-                      <div key={iconIndex} className="text-xl text-white">
+                      <div key={`big-item-icon-${iconIndex}`} className="text-xl text-white">
                         {icon}
                       </div>
                     ))}
