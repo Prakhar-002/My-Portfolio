@@ -218,7 +218,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] z-10 mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 hidden md:flex"
           >
-            Three years ago, I began my journey as a self-taught developer. Since then, I've built over 15 full-stack web projects, completed 10+ tech courses—including Next.js, React.js, TypeScript, Numpy-Pandas, Framer Motion, Prisma, Zustand and grown into a confident MERN stack developer.
+            Three years ago, I began my journey as a self-taught developer. Since then, I&apos;ve built over 15 full-stack web projects, completed 10+ tech courses—including Next.js, React.js, TypeScript, Numpy-Pandas, Framer Motion, Prisma, Zustand and grown into a confident MERN stack developer.
           </motion.p>
 
           {/* counters */}
@@ -298,8 +298,8 @@ const About = () => {
                 <div>{item.stage}</div>
                 <div className="flex flex-wrap gap-4">
                   {/* itemIcons */}
-                  {item.icons?.map((icon, itemIndex) => (
-                    <div key={itemIndex} className="text-2xl text-white">{icon}</div>
+                  {item.icons?.map((icon, iconIndex) => (
+                    <div key={iconIndex} className="text-2xl text-white">{icon}</div>
                   ))}
                 </div>
               </div>
