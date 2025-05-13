@@ -51,114 +51,110 @@ import Circles from '../../components/Circles'
 import CountUp from "react-countup";
 
 
-// 🧠 Shared Skills Info Blocks
-const frontendIcons = [
-  <FaHtml5 className="text-orange-600" />,
-  <FaCss3 className="text-blue-600" />,
-  <FaJs className="text-yellow-400" />,
-  <SiTypescript className="text-blue-500" />,
-  <FaReact className="text-cyan-400" />,
-  <SiNextdotjs className="text-black dark:text-white" />,
-  <FaBootstrap className="text-purple-600" />,
-  <SiTailwindcss className="text-sky-400" />,
-  <SiFramer className="text-pink-500" />,
-  <FaMarkdown className="text-gray-600" />
-];
-
-const backendIcons = [
-  <FaNodeJs className="text-green-600" />,
-  <SiExpress className="text-gray-800 dark:text-white" />,
-  <SiPrisma className="text-indigo-600" />
-];
-
-const dbIcons = [
-  <SiMongodb className="text-green-700" />,
-  <SiMysql className="text-blue-700" />
-];
-
-const deployIcons = [
-  <FaGithub className="text-gray-800 dark:text-white" />,
-  <SiCloudinary className="text-blue-400" />,
-  <SiAppwrite className="text-pink-600" />,
-  <SiNetlify className="text-cyan-600" />,
-  <SiVercel className="text-black dark:text-white" />,
-  <SiRender className="text-indigo-400" />
-];
-
-const toolsIcons = [
-  <SiHoppscotch className="text-rose-500" />,
-  <SiPostman className="text-orange-500" />
-];
-
-const progIcons = [
-  <FaJava className="text-red-600" />,
-  <FaPython className="text-blue-400" />
-];
-
-const dataLibs = [
-  <SiNumpy className="text-violet-500" />,
-  <SiPandas className="text-blue-800" />
-];
-
-// 🏆 Awards & Experience & Credentials
-const awards = [
-  {
-    title: 'Top 0.5% LeetCode Global Rank',
-    stage: '2025'
-  },
-  {
-    title: '1000+ Days LeetCode Questions',
-    stage: '2024 - Present'
-  },
-  {
-    title: 'Java Excellence Award – Great Learning',
-    stage: '2024'
-  },
-  {
-    title: '365 Days LeetCode Streak Badge',
-    stage: '2024 - Present'
-  },
-];
-
-const experience = [
-  {
-    title: 'Full-Stack Developer – Freelance & Personal Projects',
-    stage: '2023 – Present',
-  },
-  {
-    title: '1000+ Days LeetCode Questions',
-    stage: '2024 - Present'
-  },
-  {
-    title: 'React.js and Next.js Monster Course – 100+ Projects',
-    stage: '2025 – Present',
-  },
-  {
-    title: 'Open Source Contributor – GitHub & Dev Community',
-    stage: '2024 – Present',
-  }
-];
-
-const credentials = [
-  { title: 'Certified Web Development - Apna College', stage: '2024' },
-  { title: 'Database Management System - Infosys', stage: '2024' },
-  { title: 'Java Certified - Apna College & Great Leaning', stage: '2023' },
-];
-
 // 📦 Export data objects
 export const aboutData = [
   {
     title: 'skills',
     info: [
-      { title: 'Frontend Development', icons: frontendIcons },
-      { title: 'Backend & Database', icons: [...backendIcons, ...dbIcons] },
-      { title: 'Deployment & Tools', icons: [...deployIcons, ...toolsIcons] },
-      { title: 'Programming & Data', icons: [...progIcons, ...dataLibs] },
+      {
+        title: 'Frontend Development',
+        icons: [
+          <FaHtml5 className="text-orange-600" />,
+          <FaCss3 className="text-blue-600" />,
+          <FaJs className="text-yellow-400" />,
+          <SiTypescript className="text-blue-500" />,
+          <FaReact className="text-cyan-400" />,
+          <SiNextdotjs className="text-black dark:text-white" />,
+          <FaBootstrap className="text-purple-600" />,
+          <SiTailwindcss className="text-sky-400" />,
+          <SiFramer className="text-pink-500" />,
+          <FaMarkdown className="text-gray-600" />
+        ]
+      },
+      {
+        title: 'Backend & Database',
+        icons: [
+          <FaNodeJs className="text-green-600" />,
+          <SiExpress className="text-gray-800 dark:text-white" />,
+          <SiPrisma className="text-indigo-600" />,
+          <SiMongodb className="text-green-700" />,
+          <SiMysql className="text-blue-700" />
+        ],
+      },
+      {
+        title: 'Deployment & Tools',
+        icons: [
+          <FaGithub className="text-gray-800 dark:text-white" />,
+          <SiCloudinary className="text-blue-400" />,
+          <SiAppwrite className="text-pink-600" />,
+          <SiNetlify className="text-cyan-600" />,
+          <SiVercel className="text-black dark:text-white" />,
+          <SiRender className="text-indigo-400" />,
+          <SiHoppscotch className="text-rose-500" />,
+          <SiPostman className="text-orange-500" />
+        ]
+      },
+      {
+        title: 'Programming & Data',
+        icons: [
+          <FaJava className="text-red-600" />,
+          <FaPython className="text-blue-400" />,
+          <SiNumpy className="text-violet-500" />,
+          <SiPandas className="text-blue-800" />
+        ]
+      },
     ]
   },
-  { title: 'awards', info: awards },
-  { title: 'experience', info: experience },
-  { title: 'credentials', info: credentials }
+  {
+    title: 'awards',
+    info: [
+      {
+        title: 'Top 0.5% LeetCode Global Rank',
+        stage: '2025'
+      },
+      {
+        title: '1000+ Days LeetCode Questions',
+        stage: '2024 - Present'
+      },
+      {
+        title: 'Java Excellence Award – Great Learning',
+        stage: '2024'
+      },
+      {
+        title: '365 Days LeetCode Streak Badge',
+        stage: '2024 - Present'
+      },
+    ]
+  },
+  {
+    title: 'experience',
+    info: [
+      {
+        title: 'Full-Stack Developer – Freelance & Personal Projects',
+        stage: '2023 – Present',
+      },
+      {
+        title: '1000+ Days LeetCode Questions',
+        stage: '2024 - Present'
+      },
+      {
+        title: 'React.js and Next.js Monster Course – 100+ Projects',
+        stage: '2025 – Present',
+      },
+      {
+        title: 'Open Source Contributor – GitHub & Dev Community',
+        stage: '2024 – Present',
+      }
+    ]
+  },
+  {
+    title: 'credentials',
+    info: [
+      { title: 'Certified Web Development - Apna College', stage: '2024' },
+      { title: 'Database Management System - Infosys', stage: '2024' },
+      { title: 'Java Certified - Apna College & Great Leaning', stage: '2023' },
+    ]
+  }
 ];
 
 // bigScreen data
@@ -166,18 +162,120 @@ export const bigScreenAboutData = [
   {
     title: 'skills',
     info: [
-      { title: 'Web Dev', icons: frontendIcons },
-      { title: 'Backend & API', icons: backendIcons },
-      { title: 'Databases', icons: dbIcons },
-      { title: 'Deployment & Hosting', icons: deployIcons },
-      { title: 'API & Testing Tools', icons: toolsIcons },
-      { title: 'Programming & DSA', icons: progIcons },
-      { title: 'Data Science Libraries', icons: dataLibs }
+      {
+        title: 'Web Dev',
+        icons: [
+          <FaHtml5 className="text-orange-600" />,
+          <FaCss3 className="text-blue-600" />,
+          <FaJs className="text-yellow-400" />,
+          <SiTypescript className="text-blue-500" />,
+          <FaReact className="text-cyan-400" />,
+          <SiNextdotjs className="text-black dark:text-white" />,
+          <FaBootstrap className="text-purple-600" />,
+          <SiTailwindcss className="text-sky-400" />,
+          <SiFramer className="text-pink-500" />,
+          <FaMarkdown className="text-gray-600" />
+        ]
+      },
+      {
+        title: 'Backend & API',
+        icons: [
+          <FaNodeJs className="text-green-600" />,
+          <SiExpress className="text-gray-800 dark:text-white" />,
+          <SiPrisma className="text-indigo-600" />
+        ]
+      },
+      {
+        title: 'Databases',
+        icons: [
+          <SiMongodb className="text-green-700" />,
+          <SiMysql className="text-blue-700" />
+        ]
+      },
+      {
+        title: 'Deployment & Hosting',
+        icons: [
+          <FaGithub className="text-gray-800 dark:text-white" />,
+          <SiCloudinary className="text-blue-400" />,
+          <SiAppwrite className="text-pink-600" />,
+          <SiNetlify className="text-cyan-600" />,
+          <SiVercel className="text-black dark:text-white" />,
+          <SiRender className="text-indigo-400" />
+        ]
+      },
+      {
+        title: 'API & Testing Tools',
+        icons: [
+          <SiHoppscotch className="text-rose-500" />,
+          <SiPostman className="text-orange-500" />
+        ]
+      },
+      {
+        title: 'Programming & DSA',
+        icons: [
+          <FaJava className="text-red-600" />,
+          <FaPython className="text-blue-400" />
+        ]
+      },
+      {
+        title: 'Data Science Libraries',
+        icons: [
+          <SiNumpy className="text-violet-500" />,
+          <SiPandas className="text-blue-800" />
+        ]
+      }
     ]
   },
-  { title: 'awards', info: awards },
-  { title: 'experience', info: experience },
-  { title: 'credentials', info: credentials }
+  {
+    title: 'awards',
+    info: [
+      {
+        title: 'Top 0.5% LeetCode Global Rank',
+        stage: '2025'
+      },
+      {
+        title: '1000+ Days LeetCode Questions',
+        stage: '2024 - Present'
+      },
+      {
+        title: 'Java Excellence Award – Great Learning',
+        stage: '2024'
+      },
+      {
+        title: '365 Days LeetCode Streak Badge',
+        stage: '2024 - Present'
+      },
+    ]
+  },
+  {
+    title: 'experience',
+    info: [
+      {
+        title: 'Full-Stack Developer – Freelance & Personal Projects',
+        stage: '2023 – Present',
+      },
+      {
+        title: '1000+ Days LeetCode Questions',
+        stage: '2024 - Present'
+      },
+      {
+        title: 'React.js and Next.js Monster Course – 100+ Projects',
+        stage: '2025 – Present',
+      },
+      {
+        title: 'Open Source Contributor – GitHub & Dev Community',
+        stage: '2024 – Present',
+      }
+    ]
+  },
+  {
+    title: 'credentials',
+    info: [
+      { title: 'Certified Web Development - Apna College', stage: '2024' },
+      { title: 'Database Management System - Infosys', stage: '2024' },
+      { title: 'Java Certified - Apna College & Great Leaning', stage: '2023' },
+    ]
+  }
 ];
 
 

@@ -158,8 +158,8 @@ const WorkSlider = () => {
         workSlides.slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="grid grid-cols-2 grid-rows-4 gap-4 cursor-pointer">
-              {slide.images.map((image, index) => (
-                <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
+              {slide.images.map((image, imgIndex) => (
+                <div key={imgIndex} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                   <div className="relative flex items-center justify-center overflow-hidden group">
                     {/* Image with object-fit to handle different aspect ratios */}
                     <Image
