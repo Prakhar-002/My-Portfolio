@@ -85,7 +85,7 @@ const workSlides = {
         },
         {
           title: 'Next.js',
-          path: '/next.jpg',
+          path: '/Next.jpg',
           gradient: 'from-transparent via-[#4c71ae] to-[#0f0f10]',
           link: 'https://github.com/Prakhar-002/Next.js',
         },
