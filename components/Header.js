@@ -26,7 +26,7 @@ const Header = () => {
               priority={true}
             /> */}
             <h2 className="text-[30px]">
-              Prakhar <span className="text-white/70 font-extralight">Katiyar</span> <span className="text-accent">.</span>
+              Prakhar <span className="text-white/70 font-extralight">Katiyar</span><span className="text-accent">.</span>
             </h2>
           </Link>
 
