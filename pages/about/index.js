@@ -299,7 +299,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-4">
                   {/* itemIcons */}
                   {item.icons?.map((icon, itemIndex) => (
-                    <div className="text-2xl text-white">{icon}</div>
+                    <div key={itemIndex} className="text-2xl text-white">{icon}</div>
                   ))}
                 </div>
               </div>

@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# Prakhar-002 Portfolio
